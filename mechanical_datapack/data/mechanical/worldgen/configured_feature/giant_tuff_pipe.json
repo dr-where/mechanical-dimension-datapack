@@ -1,0 +1,58 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
+      "min_clipped_height": 2,
+      "limit": 10,
+      "lower_size": 0,
+      "upper_size": 5
+    },
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:tuff_bricks"
+      }
+    },
+    "trunk_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:polished_tuff"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:tuff"
+          }
+        }
+      ]
+    },
+    "foliage_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:waxed_weathered_copper"
+      }
+    },
+    "trunk_placer": {
+      "type": "minecraft:mega_jungle_trunk_placer",
+      "base_height": 1,
+      "height_rand_a": 3,
+      "height_rand_b": 5
+    },
+    "foliage_placer": {
+      "type": "minecraft:blob_foliage_placer",
+      "radius": {
+        "type": "uniform",
+        "max_inclusive": 2,
+        "min_inclusive": 1
+      },
+      "offset": 0,
+      "height": 1
+    },
+    "decorators": []
+  }
+}

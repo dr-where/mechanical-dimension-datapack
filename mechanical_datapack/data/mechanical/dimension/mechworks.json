@@ -8,7 +8,19 @@
         {
             "biome": "mechanical:pipeland",
             "parameters": {
-                "continentalness": 0,
+                "continentalness": -0.5,
+                "depth": 0,
+                "erosion": 0,
+                "humidity": 0,
+                "offset": 0,
+                "temperature": 0,
+                "weirdness": 0
+            }
+        },
+        {
+            "biome": "mechanical:abandoned_mega_towers",
+            "parameters": {
+                "continentalness": 0.7,
                 "depth": 0,
                 "erosion": 0,
                 "humidity": 0,

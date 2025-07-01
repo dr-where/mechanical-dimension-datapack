@@ -1,0 +1,65 @@
+{
+  "type": "minecraft:geode",
+  "config": {
+    "blocks": {
+      "filling_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:air"
+        }
+      },
+      "inner_layer_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:air"
+        }
+      },
+      "alternate_inner_layer_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:waxed_oxidized_copper_grate"
+        }
+      },
+      "middle_layer_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:waxed_oxidized_copper_grate"
+        }
+      },
+      "outer_layer_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:waxed_oxidized_chiseled_copper"
+        }
+      },
+      "inner_placements": [
+        {
+          "Name": "minecraft:waxed_oxidized_copper_grate"
+        }
+      ],
+      "cannot_replace": "#mechanical:grates_cannot_replace",
+      "invalid_blocks": "#minecraft:acacia_logs"
+    },
+    "layers": {
+      "filling": 1.2,
+      "inner_layer": 0.01,
+      "middle_layer": 0.2,
+      "outer_layer": 1
+    },
+    "crack": {
+      "generate_crack_chance": 0.1,
+      "base_crack_size": 3,
+      "crack_point_offset": 3
+    },
+    "noise_multiplier": 1,
+    "use_potential_placements_chance": 0,
+    "use_alternate_layer0_chance": 0,
+    "placements_require_layer0_alternate": false,
+    "outer_wall_distance": {
+      "type": "minecraft:biased_to_bottom",
+      "min_inclusive": 2,
+      "max_inclusive": 6
+    },
+    "invalid_blocks_threshold": 10
+  }
+}

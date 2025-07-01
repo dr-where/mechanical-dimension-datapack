@@ -1,0 +1,39 @@
+{
+    "feature": "mechanical:giant_tuff_pipe",
+    "placement": [
+        {
+            "type": "count",
+            "count": {
+                "type": "uniform",
+                "max_inclusive": 5,
+                "min_inclusive": 1
+            }
+        },
+        {
+            "type": "rarity_filter",
+            "chance": 8
+        },
+        {
+            "type": "in_square"
+        },
+        {
+            "type": "heightmap",
+            "heightmap": "WORLD_SURFACE"
+        },
+        {
+            "type": "block_predicate_filter",
+            "predicate": {
+                "type": "not",
+                "predicate": {
+                    "type": "matching_blocks",
+                    "blocks": [
+                        "water"
+                    ],
+                    "offset": [
+                        0, -1, 0
+                    ]
+                }
+            }
+        }
+    ]
+}
