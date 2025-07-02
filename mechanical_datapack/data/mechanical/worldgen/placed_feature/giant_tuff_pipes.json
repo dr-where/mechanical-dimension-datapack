@@ -25,10 +25,8 @@
             "predicate": {
                 "type": "not",
                 "predicate": {
-                    "type": "matching_blocks",
-                    "blocks": [
-                        "water"
-                    ],
+                    "type": "matching_block_tag",
+                    "tag": "mechanical:features_cannot_replace",
                     "offset": [
                         0, -1, 0
                     ]

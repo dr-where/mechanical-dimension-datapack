@@ -1,6 +1,5 @@
 {
     "values": [
-        "#minecraft:air",
-        "minecraft:water"
+        "#mechanical:features_cannot_replace"
     ]
 }

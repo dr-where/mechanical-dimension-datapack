@@ -37,13 +37,13 @@
           "Name": "minecraft:waxed_oxidized_copper_grate"
         }
       ],
-      "cannot_replace": "#mechanical:grates_cannot_replace",
-      "invalid_blocks": "#minecraft:acacia_logs"
+      "cannot_replace": "#mechanical:features_cannot_replace",
+      "invalid_blocks": "#minecraft:air"
     },
     "layers": {
       "filling": 1.2,
       "inner_layer": 0.01,
-      "middle_layer": 0.2,
+      "middle_layer": 1.2,
       "outer_layer": 1
     },
     "crack": {
@@ -57,9 +57,9 @@
     "placements_require_layer0_alternate": false,
     "outer_wall_distance": {
       "type": "minecraft:biased_to_bottom",
-      "min_inclusive": 2,
-      "max_inclusive": 6
+      "min_inclusive": 1,
+      "max_inclusive": 3
     },
-    "invalid_blocks_threshold": 10
+    "invalid_blocks_threshold": 30
   }
 }

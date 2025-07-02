@@ -19,14 +19,14 @@
         {
             "type": "environment_scan",
             "direction_of_search": "down",
-            "max_steps": 5,
+            "max_steps": 8,
             "target_condition": {
                 "type": "matching_blocks",
                 "blocks": [
-                    "tuff_bricks"
+                    "deepslate"
                 ],
                 "offset": [
-                    0, 2, 0
+                    0, 7, 0
                 ]
             }
         }
