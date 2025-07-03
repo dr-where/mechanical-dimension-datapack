@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "RSR",
+    "XLX",
+    "XDX"
+  ],
+  "key": {
+    "X": "minecraft:copper_block",
+    "S": "minecraft:sculk_shrieker",
+    "R": "minecraft:redstone_torch",
+    "D": "minecraft:recovery_compass",
+    "L": "minecraft:lodestone"
+  },
+  "result": {
+    "id": "minecraft:nether_star",
+    "components": {
+      "minecraft:consumable": {
+        "consume_seconds": 999999,
+        "animation": "toot_horn",
+        "has_consume_particles": false
+      },
+      "minecraft:custom_data": {
+        "mechanical_beacon": true
+      },
+      "minecraft:custom_name": {
+        "text": "Interdimensional Beacon",
+        "type": "text",
+        "color": "yellow",
+        "italic": false
+      }
+    },
+    "count": 1
+  },
+  "show_notification": true
+}

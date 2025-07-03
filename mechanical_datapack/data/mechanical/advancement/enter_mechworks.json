@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oxidized_copper_bulb",
+      "components": {
+        "minecraft:block_state": {
+          "lit:1b": ""
+        }
+      },
+      "count": 1
+    },
+    "title": "A Forgotten World",
+    "description": "Use an Interdimensional Beacon to travel to the abandoned planet Xinoc",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "mechanical:unlock_beacon_craft",
+  "criteria": {
+    "enter_dimension": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "mechanical:mechworks"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "right_click": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:nether_star",
+          "count": 1,
+          "predicates": {
+            "minecraft:custom_data": {
+              "mechanical_beacon": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "right_click"
+    ]
+  ],
+  "rewards": {
+    "function": "mechanical:beacon_activate"
+  }
+}

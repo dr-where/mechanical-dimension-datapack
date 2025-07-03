@@ -36,19 +36,19 @@
           {
             "weight": 8,
             "data": {
-              "Name": "minecraft:waxed_exposed_cut_copper"
+              "Name": "minecraft:waxed_oxidized_cut_copper"
             }
           },
           {
             "weight": 1,
             "data": {
-              "Name": "minecraft:waxed_exposed_chiseled_copper"
+              "Name": "minecraft:waxed_oxidized_chiseled_copper"
             }
           },
           {
             "weight": 1,
             "data": {
-              "Name": "minecraft:waxed_exposed_copper"
+              "Name": "minecraft:waxed_oxidized_copper"
             }
           }
         ]
@@ -69,7 +69,7 @@
         "muddy_roots_provider": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "minecraft:waxed_weathered_copper"
+            "Name": "minecraft:waxed_oxidized_copper"
           }
         }
       }
