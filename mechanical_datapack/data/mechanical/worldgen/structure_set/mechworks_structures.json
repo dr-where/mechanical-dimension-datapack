@@ -1,0 +1,15 @@
+{
+    "placement": {
+        "salt": 91385,
+        "type": "minecraft:random_spread",
+        "separation": 15,
+        "spacing": 20,
+        "spread_type": "triangular"
+    },
+    "structures": [
+        {
+            "structure": "mechanical:sewer",
+            "weight": 1
+        }
+    ]
+}

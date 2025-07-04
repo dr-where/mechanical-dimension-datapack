@@ -42,16 +42,16 @@
     },
     "layers": {
       "filling": 1.2,
-      "inner_layer": 0.01,
-      "middle_layer": 1.2,
-      "outer_layer": 1
+      "inner_layer": 2,
+      "middle_layer": 2.4,
+      "outer_layer": 3
     },
     "crack": {
       "generate_crack_chance": 0.1,
       "base_crack_size": 3,
       "crack_point_offset": 3
     },
-    "noise_multiplier": 1,
+    "noise_multiplier": 0.03,
     "use_potential_placements_chance": 0,
     "use_alternate_layer0_chance": 0,
     "placements_require_layer0_alternate": false,

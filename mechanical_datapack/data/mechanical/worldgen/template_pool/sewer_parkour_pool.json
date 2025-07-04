@@ -1,0 +1,26 @@
+{
+    "name": "sewer_pipe_pool",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "mechanical:sewer/parkour/sewer_parkour_platform1",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "override_liquid_settings": "ignore_waterlogging"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "mechanical:sewer/parkour/sewer_parkour_platform2",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "override_liquid_settings": "ignore_waterlogging"
+            },
+            "weight": 1
+        }
+    ]
+}

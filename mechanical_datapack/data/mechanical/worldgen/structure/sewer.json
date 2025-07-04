@@ -1,0 +1,26 @@
+{
+    "biomes": [
+        "mechanical:abandoned_mega_towers",
+        "mechanical:pipeland"
+    ],
+    "spawn_overrides": {},
+    "step": "underground_structures",
+    "type": "jigsaw",
+    "max_distance_from_center": 116,
+    "size": 20,
+    "start_height": {
+        "type": "uniform",
+        "max_inclusive": {
+            "absolute": 100
+        },
+        "min_inclusive": {
+            "absolute": 80
+        }
+    },
+    "start_pool": "mechanical:sewer_pipe_pool",
+    "use_expansion_hack": false,
+    "dimension_padding": 0,
+    "liquid_settings": "ignore_waterlogging",
+    "start_jigsaw_name": "sewer_start",
+    "terrain_adaptation": "none"
+}

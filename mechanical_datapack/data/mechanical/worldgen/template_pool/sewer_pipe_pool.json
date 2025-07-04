@@ -1,0 +1,46 @@
+{
+    "name": "sewer_pipe_pool",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "mechanical:sewer/sewer_pipe1",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "override_liquid_settings": "ignore_waterlogging"
+            },
+            "weight": 10
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "mechanical:sewer/sewer_3way",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "override_liquid_settings": "ignore_waterlogging"
+            },
+            "weight": 2
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "mechanical:sewer/sewer_4way",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "override_liquid_settings": "ignore_waterlogging"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "mechanical:sewer/sewer_entrance",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "override_liquid_settings": "ignore_waterlogging"
+            },
+            "weight": 1
+        }
+    ]
+}
